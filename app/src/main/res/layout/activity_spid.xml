@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Spid">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/spid" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF957A"
+                android:gravity="center"
+                android:text="Spid kasalligi"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginVertical="8dp"
+                android:lineSpacingExtra="6dp"
+                android:justificationMode="inter_word"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:text=" O`zbekiston Respublikasida OITS epidemiyasi 1987 yildan boshlangan.
+1987 yildan 01.11.2003 yilga qadar Respublikamizda 3531 nafar OIV virusi yuqqan shaxslar ro`yxatga olingan.
+OIV bilan ro`yxatga olingan shaxslarning 60 nafarini chet el fuqarolari tashkil etadi.
+Respublikada jami qayd etilgan 3531 nafar OIV yuqqan shasxlarning 11 nafari 15 yoshgacha bo`lgan bolalardir, 2916 nafari erkaklar va 615 nafarini ayollar tashkil etadi.
+OIV bilan ro`yxatga olingan shaxslarning 473 nafariga kasallik jinsiy yo`l bilan, 1960 nafariga qon orqali, 1098 nafariga noaniq yo`l (qaysi yo`l bilan yuqqanligi tekshirilmokda) yuqqan.
+Respublikamizda OITS kasalligi natijasida vafot etganlar soni 101 nafarni tashkil etadi. Vafot etganlarning 70 % zida atipik pnevmoniya xolati aniqlangan. " />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

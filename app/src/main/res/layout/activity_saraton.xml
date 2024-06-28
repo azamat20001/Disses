@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Saraton">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/saratonimg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#AE62DD"
+                android:gravity="center"
+                android:text="SARATON(RAK)"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginVertical="8dp"
+                android:lineSpacingExtra="6dp"
+                android:justificationMode="inter_word"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:text="
+Saraton (rak) — bu tanadagi ichki to’qimalardan o’sadigan yomon sifatli o’sma (shish). Kasallikning bunday nomlanishiga sabab, 90% holatlarida bemorlarda yomn sifatli o’smalar qisqichbaqa (saraton) qisqichiga o’xshaydi (rus. рак). Rivojlangan mamlakatlarda barcha o’limlarning 15-20% saraton kasalligidan kelib chiqadi.
+
+Mexroj, [28.11.2023 13:54]
+Shifokorlar saraton oldi (prekantseroz) va erta bosqichlarida saratonni davolashga optimizm bilan  nazar solishlari, ilm-fan yutuqlari va ularni amaliy qo’llash natijalariga asoslanadi:
+
+Kundalik amaliyotga minimal invaziv diagnostika tizimlari: KT, MRT, MSKT, PET-KT kiritilishi real vaqtda shikastlangan hujayralarning yakka to’planmalarini 2D va 3D vizualizatsiya qilish (saraton oldi bosqichlari uchun) imkonini berdi;
+Erta bosqichlarida onkojarayon patogenezi mexanizmini yaxshiroq tushunish, biokimyo, patofiziologiya, klinik tibbiyot sohasidagi kashfiyotlar davolashning yangi choralari va usullarini ochib berdi.
+Yuqorida keltirilganlar faqat onkologiya boshlanayotganida samarali bo’ladi." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

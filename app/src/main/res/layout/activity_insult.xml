@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Insult">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/insult" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D8D597"
+                android:gravity="center"
+                android:text="Insult kasalligi"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginVertical="8dp"
+                android:lineSpacingExtra="6dp"
+                android:justificationMode="inter_word"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:text="Insult – qon quyuqlashishi hisobiga paydo bo‘lgan tromblar natijasida miyada qon aylanishining buzilishidir. Zudlik bilan o‘limga olib keluvchi insult kasalligi
+                 miyaning nafas olishi uchun javobgar qismlarga ta’sir qiladi. Agar bemorning yashashiga umid bo‘lsa, shifokorlarga bir necha soatgina imkoniyat tarzida berilishi mumkin. Sababi insultning oqibatlari juda jiddiy, ya’ni falaj, nutq qobiliyatini yo‘qotish kabi hollar kuzatilishi mumkin. Insult kasalligi ham tobora yosharmoqda. Endilikda yoshlar ham insult kasalligi haqida batafsil ma’lumotlar, uning oldini olish chora-tadbirlariga amal qilishi zarur. Shu bilan birga, spirtli
+                 ichimliklardan voz kechish, chekishni tashlash va sog‘lom turmush tarzini olib borishi kerak." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
